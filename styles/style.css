@@ -57,17 +57,21 @@ section {
 
 }
 
+span {
+    color: orange
+}
+
 .output-section {
 
 }
 
-.hidden1 {
-    visibility: visible;
+#hidden1 {
+    display: flex;
 }
 
-.hidden2 {
-    visibility: hidden;
-
+#hidden2 {
+    display: none;
+    font-size: 2rem;
 }
 
 header {

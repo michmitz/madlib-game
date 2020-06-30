@@ -22,6 +22,9 @@ console.log(inputVerb3);
 const button = document.getElementById("button");
 console.log(button);
 
+const hidden1 = document.getElementById("hidden1");
+const hidden2 = document.getElementById("hidden2");
+
 const displayNoun1 = document.getElementById("display-noun-1");
 console.log(displayNoun1);
 const displayNoun2 = document.getElementById("display-noun-2");
@@ -63,4 +66,7 @@ button.addEventListener('click', () => {
     displayVerb1.textContent = verb1Value;
     displayVerb2.textContent = verb2Value;
     displayVerb3.textContent = verb3Value;
+
+    hidden1.style.display = 'none';
+    hidden2.style.display = 'flex';
 })

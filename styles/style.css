@@ -23,6 +23,7 @@ body {
     color: white;
     background-color: var(--color2);
     background-image: url('../smashmouth.jpeg');
+    
 }
 
 
@@ -72,6 +73,7 @@ span {
 #hidden2 {
     display: none;
     font-size: 2rem;
+    text-shadow: 2px 2px black;
 }
 
 header {
@@ -115,6 +117,7 @@ content {
 
 p {
     margin: var(--gutter);
+    background-blend-mode: darken;
 }
   
 footer {
